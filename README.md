@@ -1,2 +1,2 @@
-# Working groups OASIS
-Template for Working groups to make their own OASIS
+# Education student OASIS
+Template for ESIIL education students to make their own OASIS
