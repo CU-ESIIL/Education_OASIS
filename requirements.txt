@@ -18,6 +18,7 @@ mkdocs-pdf-export-plugin
 mkdocstrings 
 mkdocstrings-crystal
 mkdocstrings-python-legacy
+mkdocs-revealjs
 
 # Requirements for core
 jinja2>=3.0
