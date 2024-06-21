@@ -64,6 +64,7 @@ extra_css:
 
 plugins:
     - search
+    - revealjs
     - mkdocstrings
     - git-revision-date
     - mkdocs-jupyter:
