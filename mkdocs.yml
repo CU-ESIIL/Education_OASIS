@@ -65,9 +65,22 @@ extra_css:
 
 plugins:
     - search
-    - revealjs
     - mkdocstrings
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
+
+markdown_extensions:
+    - pymdownx.slugs
+    - pymdownx.emoji
+    - pymdownx.keys
+    - pymdownx.tilde
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js
+    - https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js
+
+# Custom templates
+extra_templates:
+    - overrides/slides.html
