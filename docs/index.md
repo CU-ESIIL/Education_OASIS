@@ -16,7 +16,37 @@ layout: default
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="slides/01-slide.md" data-separator="^---$" data-separator-vertical="^--$" data-separator-notes="^Note:"></section>
+            <section data-markdown>
+                <textarea data-template>
+                    # Welcome to My Slideshow
+
+                    ---
+
+                    ## Slide 1
+
+                    - Item 1
+                    - Item 2
+                    - Item 3
+
+                    ---
+
+                    ## Slide 2
+
+                    > "A quote to remember."
+
+                    ---
+
+                    ## Slide 3
+
+                    ### A Subsection
+
+                    1. First item
+                    2. Second item
+                    3. Third item
+
+                    Note: This is a note for the presenter.
+                </textarea>
+            </section>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
