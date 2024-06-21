@@ -60,7 +60,7 @@ extra:
       link: https://github.com/cu-esiil/
 
 extra_css:
-  - stylesheets/extra.css
+  - css/custom.css
 
 plugins:
     - search
