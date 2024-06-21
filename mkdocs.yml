@@ -13,7 +13,7 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  - Slides: https://cu-esiil.github.io/WG_PI_Orientation/#1
+  - Slides: slides.md
   # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
   # - Remote Sensing:
   #     - How to Cloud Correct Sentinel-2 Images: remote_sensing/sentinel_2_cloud_correction/sentinel_2_cloud_correction.md
