@@ -61,13 +61,20 @@ extra:
       link: https://github.com/cu-esiil/
 
 extra_css:
-  - css/custom.css
+    - css/custom.css
 
 plugins:
     - search
-    - revealjs
     - mkdocstrings
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js
+    - https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js
+
+# Custom templates
+extra_templates:
+    - overrides/slides.html
