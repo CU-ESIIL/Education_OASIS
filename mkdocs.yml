@@ -71,11 +71,6 @@ plugins:
           include_source: True
           ignore_h1_titles: True
 
-markdown_extensions:
-  - pymdownx.slugs
-  - pymdownx.emoji
-  - pymdownx.keys
-  - pymdownx.tilde
   
 extra_javascript:
     - https://remarkjs.com/downloads/remark-latest.min.js
